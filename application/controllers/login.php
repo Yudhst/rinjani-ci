@@ -73,7 +73,12 @@
         
         public function logout(){
             $this->session->sess_destroy();
-            redirect('');
+            echo "
+                <script>
+                    alert('You are logged out.');
+                    window.location = '".base_url()."';
+                </script>
+            ";
         }
     
     }

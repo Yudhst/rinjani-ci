@@ -10,7 +10,7 @@
             <tr>
                 <form action="" method="post">
                     <td>
-                        <label for="combo_cat">Filter : </label>
+                        <label for="combo_cat">Filter : &nbsp;&nbsp;</label>
                     </td>
                     <td>
                         <select name="comboCat" class="form-input">
@@ -30,7 +30,7 @@
             <tr>
                 <form action="" method="post">
                     <td>
-                        <label for="var_search">Product Name : </label>
+                        <label for="var_search">Product Name : &nbsp;&nbsp;</label>
                     </td>
                     <td>
                         <input type="text" name="varSearch" class="form-input">
