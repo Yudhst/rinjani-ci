@@ -19,7 +19,7 @@
         <?php foreach($kumpulanTransaksi as $tr): ?>
             <tr>
                 <td>
-                    <?= $tr->date ?>
+                    <?= date('d F Y', strtotime($tr->date)) ?>
                 </td>
                 <td>
                     Rp. <?= number_format($tr->grandtotal) ?>
